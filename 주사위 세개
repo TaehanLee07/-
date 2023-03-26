@@ -17,7 +17,7 @@ public class Main {
                 prize = 1000 + b * 100;
             }
         } else {
-            int maxNum = Math.max(Math.max(a, b), c);
+            int maxNum = math.max(math.max(a, b), c);
             prize = maxNum * 100;
         }
         
